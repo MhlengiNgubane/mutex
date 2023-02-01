@@ -1,8 +1,8 @@
-package main 
+package main
 
 import (
-	"os"
 	"io"
+	"os"
 	"strings"
 	"testing"
 )
@@ -22,8 +22,8 @@ func Test_main(t *testing.T) {
 
 	os.Stdout = stdOut
 
-	if ! strings.Contains(output, "34320.00") {
+	if ! strings.Contains(output, "$34320.00") {
 		t.Error("wrong balance returned")
 	}
-}
 
+}
