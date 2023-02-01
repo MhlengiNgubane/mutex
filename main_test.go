@@ -26,3 +26,4 @@ func Test_main(t *testing.T) {
 		t.Error("wrong balance returned")
 	}
 }
+
